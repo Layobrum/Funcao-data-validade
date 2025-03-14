@@ -1,34 +1,36 @@
-# Funcao-data-validade
-Projeto em python que recebe uma data de fabricação de um produto e aplica um número de dias de validade inserido pelo usuário a esta data.
+Descrição ✏️
+============
 
-# Validade de Data
+Neste projeto há uma função feita para receber a data de fabricação de um produto junto com a validade do mesmo, em dias. Ao chamar a função com estes parâmetros, o retorno da data de validade do produto já ocorre automaticamente, podendo ser exibido na tela, armazenado em um estoque ou realizado o procedimento desejado.
+É possível ver uma prévia do funcionamento da função em `Exemplo funcao.mp4`
 
-Este programa em Python calcula a validade de uma data de fabricação, considerando o dia, mês e ano, além de um período de validade em dias. O programa verifica se a data é válida e retorna a nova data após adicionar o período de validade.
+Arquivos do Projeto 📁
+---------------------
 
-## Estrutura do Código
+`function.py`: Programa que contém a função criada.
+`main.py`: Arquivo principal importando a função para seu uso. Este arquivo pode ser substituido pelo arquivo do seu projeto.
 
-O código é dividido em duas partes principais:
+Uso do Programa 🖥️
+----------------
 
-1. **Função `calcularValidade`**: Esta função recebe os parâmetros `diaFabr`, `mesFabr`, `anoFabr` e `validade`. Ela verifica se a data de fabricação é válida e calcula a nova data após adicionar o período de validade.
+O programa apenas precisa da linguagem `Python` instalada no seu computador.
+- Importe o arquivo `function.py` para o seu projeto
+- Use a função `calcularValidade` inserindo em seus parâmetros, respectivamente, `dia de fabricação do produto`, `mês de fabricação do produto`, `ano de fabricação do produto`, `validade do produto em dias`
+- O retorno da função será a data de validade no formato `dd/ mm/ yyyy`
 
-   ```python
-   def calcularValidade(diaFabr, mesFabr, anoFabr, validade):
+Exemplo de Uso:
+Para uma data de fabricação de 25/02/2024 e um período de validade de 15 dia, o programa retornará:
 
-   Como Usar
-Clone o repositório:
+11/3/2024
 
-git clone <URL_DO_REPOSITORIO>
-Navegue até o diretório do projeto:
+Personalização 🖍️
+----------------
 
-cd <NOME_DO_DIRETORIO>
-Execute o script principal:
+- É possível criar novos parâmetros na função para expandir suas funcionalidades
+- É possível adicionar ou transformar seus parâmetros em opcionais definindo valores nulos fixos para eles
 
-python main.py
+Créditos 👨‍🎓
+-----------
 
-Exemplo de Uso
-Para uma data de fabricação de 28/02/2023 e um período de validade de 1 dia, o programa retornará:
-
-1/3/2023
-
-Contribuições
-Sinta-se à vontade para contribuir com melhorias ou correções. Abra uma issue ou envie um pull request!
+Este projeto foi criado por Layo "MrBrum" como um exercício de programação em Python.
+Se você tiver alguma dúvida ou sugestão, por favor entre em contato comigo pelo meu [Linkedin](https://www.linkedin.com/in/layo-brum/).
