@@ -18,7 +18,7 @@ O programa apenas precisa da linguagem `Python` instalada no seu computador.
 - Use a função `calcularValidade` inserindo em seus parâmetros, respectivamente, `dia de fabricação do produto`, `mês de fabricação do produto`, `ano de fabricação do produto`, `validade do produto em dias`
 - O retorno da função será a data de validade no formato `dd/ mm/ yyyy`
 
-*Exemplo de Uso:* Para uma data de fabricação de 25/02/2024 e um período de validade de 15 dia, o programa retornará:
+*Exemplo de Uso:* Para uma data de fabricação de 25/02/2024 e um período de validade de 15 dias, o programa retornará:
 
 11/3/2024
 
