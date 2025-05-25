@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Descrição ✏️
 ============
 
@@ -33,3 +35,7 @@ Créditos 👨‍🎓
 
 Este projeto foi criado por Layo "MrBrum" como um exercício de programação em Python.
 Se você tiver alguma dúvida ou sugestão, por favor entre em contato comigo pelo meu [Linkedin](https://www.linkedin.com/in/layo-brum/).
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
